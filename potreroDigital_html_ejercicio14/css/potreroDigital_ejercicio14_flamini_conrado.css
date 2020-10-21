@@ -1,0 +1,55 @@
+*{margin: 0;
+padding: 0;}
+/*Tamaño Computadora:
+-Borde negro y continuo (sólido)
+-Color de fondo rojo
+-Ancho=300px
+-Altura= 20 puntos de pantalla
+-margen vertical: 4px
+-Margen horizontal: 3%
+-padding: 0*/
+
+div.pc{ border: black solid;
+background: red;
+
+width: 300px;
+height: 20em; /*no estoy seguro que esto sea punto de pantalla, pero pt me salia que era pulgadas y pixeles quedaba muy chico.*/
+margin: 4px 3% 4px 3%;
+padding: 0;}
+
+/*
+Borde negro y punteado
+-Color de fondo verde
+-Ancho=20%
+-Altura= 100px
+-margen vertical: 10px
+-Margen horizontal: 6%
+-padding total: 9px*/
+
+
+div.laptop{ border: black dotted;
+background-color: green;
+width: 20%;
+height: 100px;
+margin:10px 6% 10px 6%;
+padding: 9px 9px 9px 9px;}
+
+
+/*Borde rojo oscucro y solido
+-Color de fondo verde
+-Ancho=20%
+-Altura= 100px
+-margen total:0
+-padding derecho: 9px el resto=0*/
+
+
+div.cel{ border:rgb(100, 10, 10) solid;
+    background-color: green;
+    width: 20%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    padding-right: 9px;
+ }
+
+ /*este ejercicio no estoy seguro de haberlo hecho bien*/

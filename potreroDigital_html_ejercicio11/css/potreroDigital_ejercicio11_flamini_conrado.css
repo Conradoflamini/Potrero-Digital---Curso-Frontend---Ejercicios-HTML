@@ -1,0 +1,23 @@
+h1 { color:rgb(255,255,255);
+    background:red;
+    font-family: Helvetica;
+    text-decoration: underline rgb(255,255,255) ;
+
+}
+
+
+
+h3{ color: white;
+
+    background:#0000ff;
+    
+    font-family:sans-serif;
+    
+}
+
+p{color:#02A666;
+     font-weight: bold;
+font-size: 16px;
+}
+
+
